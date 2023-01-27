@@ -1,0 +1,44 @@
+import jdk.internal.org.objectweb.asm.tree.ParameterNode;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("=***QE 09***=");
+        System.out.println("(ABDI FIRMANSYAH)");
+        System.out.println(" ");
+
+
+        System.out.println("===PERSEGI===");
+        Persegi Persegi = new Persegi(2);
+        System.out.println("Keliling Persegi = " + Persegi.HitungKeliling());
+        System.out.println("Luas Persegi = " + Persegi.hitungLuas());
+        System.out.println(" ");
+
+        System.out.println("===PERSEGI PANJANG===");
+        PersegiPanjang PersegiPanjang = new PersegiPanjang(5,4);
+        System.out.println("Keliling Persegi Panjang = " +PersegiPanjang.hitungKeliling());
+        System.out.println("Luas Persegi Panjang + " +PersegiPanjang.hitungLuas());
+        System.out.println(" ");
+
+        System.out.println("===SEGITIGA===");
+        Segitiga segitiga = new Segitiga(2,4);
+        System.out.println("Keliling Segitiga + " +segitiga.HitungKeliling());
+        System.out.println("Luas Segitiga + " +segitiga.HitungLuas());
+        System.out.println(" ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
