@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("KALKULATOR");
+
+        Scanner in = new Scanner(System.in);
+
+        Kalkulator Kalkulator = new Kalkulator();
+        Kalkulator.isioperan1(12);
+        Kalkulator.isiOperan2(13);
+
+        System.out.println("Tambah = "+Kalkulator.tambah());
+        System.out.println("Kurang = "+Kalkulator.kurang());
+        System.out.println("Kali = "+ Kalkulator.kali());
+        System.out.println("Bagi = "+ Kalkulator.bagi());
+        System.out.println("Pangkat = "+Kalkulator.pangkat());
+
+
+    }
+}
