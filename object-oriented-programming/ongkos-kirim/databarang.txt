@@ -1,0 +1,5 @@
+public class Databarang extends Harga{
+    //    Dimensi barang
+    int p, l, t;
+    int Berat;
+}
