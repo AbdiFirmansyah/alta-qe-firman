@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("tugas OOP");
+        System.out.println("ABDI-QE9");
+
+        Scanner iput = new Scanner(System.in);
+        Harga Harga = new Harga();
+
+        System.out.println("#Masukkan Data Barang#");
+        System.out.println(" ");
+        System.out.print("Data Panjang : ");
+        int p = iput.nextInt();
+        System.out.print("Data Lebar : ");
+        int l = iput.nextInt();
+        System.out.print("Data Tinggi : ");
+        int t = iput.nextInt();
+        System.out.println("Berat Barang : ");
+        int Berat = iput.nextInt();
+        System.out.println();
+
+
+        System.out.println("*Total Keseluruhan Barang*");
+        System.out.println("Dimensi Berat : " +Harga.dimensiBarang(p,l,t));
+        System.out.println("Harga : " +Harga.TinggiBarang(Berat));
+
+    }
+
+}
