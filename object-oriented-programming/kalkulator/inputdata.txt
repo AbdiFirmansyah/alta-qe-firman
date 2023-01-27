@@ -1,0 +1,19 @@
+public class InputData {
+    double operan1;
+    double operan2;
+    double tambah(){
+        return operan1 + operan2;
+    }
+    double kurang(){
+        return operan1 - operan1;
+    }
+    double kali(){
+        return operan1 * operan2;
+    }
+    double bagi(){
+        return operan1 / operan2;
+    }
+    double pangkat(){
+        return Math.pow(operan1,operan2);
+    }
+}
