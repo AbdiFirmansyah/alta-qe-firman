@@ -1,0 +1,29 @@
+import javax.xml.transform.Source;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("tugas mumet coy");
+        Scanner masukan = new Scanner(System.in);
+        System.out.println("Masukan bilangan Prima :");
+        int bil = masukan.nextInt();
+        boolean prima = true;
+        for (int i=2; i<bil; i++){
+            if ((bil % i) == 0 ){
+                prima = false;
+
+
+            }
+        }
+
+        if (prima)
+            System.out.println(bil + "Adalah Bilangan Prima");
+        else
+            System.out.println(bil + "Adalah Bukan Bilangan Prima");
+
+
+
+
+
+    }
+}

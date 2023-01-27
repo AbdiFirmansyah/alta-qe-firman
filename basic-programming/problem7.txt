@@ -1,0 +1,29 @@
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Main");
+
+        int[] arrayInteger = {1,2,3,4};
+
+        System.out.println(arrayInteger[0]);
+        System.out.println(arrayInteger[1]);
+        System.out.println(arrayInteger[2]);
+        System.out.println(arrayInteger[3]);
+
+        System.out.println("array");
+        float[] arrayFloat = new float[5];
+
+        arrayFloat[0] = 2.5f;
+        arrayFloat[1] = 2.5f;
+        arrayFloat[2] = 2.5f;
+        arrayFloat[3] = 2.5f;
+
+        System.out.println(arrayFloat[0]);
+        System.out.println(arrayFloat[1]);
+        System.out.println(arrayFloat[2]);
+        System.out.println(arrayFloat[3]);
+
+
+
+    }
+}

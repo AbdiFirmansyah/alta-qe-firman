@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Tugas Mumet coy");
+
+//        Baris, Kolom 1 ... 5
+
+        for (int baris = 1; baris <= 5; baris++) {
+            for (int kolom = 1; kolom <= 5; kolom++) {
+                System.out.print("xyz");
+
+            }
+            System.out.println();
+        }
+    }
+}

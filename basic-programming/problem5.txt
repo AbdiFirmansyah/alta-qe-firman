@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Tugas Mumet Coy");
+        System.out.println("POLINDROM");
+//        =======POLINDROM========
+        String text ="katak";
+        String temp = "";
+        for(int i=text.length()-1; i>=0; i--){
+            char c = text.charAt(1);
+            temp += String.valueOf(c);
+            {
+
+            }
+
+        }
+
+        if(text.toLowerCase().equals(temp.toLowerCase())){
+            System.out.println("text adalah polindrom");
+        }else{
+            System.out.println("text adalah bukan polindrom");
+        }
+    }
+}

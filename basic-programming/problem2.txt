@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+//        KONVERSI NILAI MAHASISWA
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Nilai Mahasiswa");
+        System.out.println("masukan nilai =");
+        int n_tugas = input.nextInt();
+
+        
+        if (n_tugas >=80 && n_tugas <=100) {
+            System.out.println("A");
+        } else if (n_tugas >=65 && n_tugas <=79) {
+            System.out.println("B+");
+        } else if (n_tugas >=50 && n_tugas <=64) {
+            System.out.println("B");
+        } else if (n_tugas >=35 && n_tugas <=49) {
+            System.out.println("C");
+        } else if (n_tugas >=0 && n_tugas <=34) {
+            System.out.println("D");
+        }else System.out.println("invalid");
+
+
+        }
+
+    }
+
