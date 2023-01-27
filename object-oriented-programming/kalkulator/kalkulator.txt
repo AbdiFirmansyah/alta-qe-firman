@@ -1,0 +1,12 @@
+public class Kalkulator extends InputData {
+
+    double operan1;
+    double operan2;
+
+    void isioperan1 (double x){
+        operan1 = x;
+    }
+    void isiOperan2 (double y){
+        operan2 = y;
+    }
+}
